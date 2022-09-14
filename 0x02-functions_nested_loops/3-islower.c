@@ -2,18 +2,18 @@
 
 /**
  * _islower - prints the alphabets in lower case.
- * @alpha: number or an alphabet.
+ * @c: number or an alphabet.
  * Return: returns 0 if successful or 1 if otherwise.
  */
 
-int _islower(int alpha)
+int _islower(int c)
 {
-	if (alpha >= 'a' && alpha  <= 'z')
+	if (c >= 'a' && alpha  <= 'z')
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
