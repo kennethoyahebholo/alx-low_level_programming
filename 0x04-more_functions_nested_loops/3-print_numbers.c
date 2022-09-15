@@ -8,12 +8,12 @@
 void print_numbers(void)
 
 {
-	int n;
+	int num;
 
-	for (n = 0; n <= 9; n++)
+	for (num = 0; n <= 9; n++)
 	{
-		_putchar("%d", n);
+		_putchar(num + '0');
 	}
 
-	_putchar("\n");
+	_putchar('\n');
 }
